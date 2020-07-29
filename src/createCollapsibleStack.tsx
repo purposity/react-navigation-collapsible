@@ -129,6 +129,8 @@ const createCollapsibleStack = (
           translateY,
           progress,
           opacity,
+          positionY,
+          animatedDiffClampY,
         };
         if (
           route.params?.isCollapsibleDirty ||
